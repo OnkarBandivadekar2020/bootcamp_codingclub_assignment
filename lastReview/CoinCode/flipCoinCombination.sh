@@ -48,3 +48,7 @@ else
     echo "not valid"
 fi
 ###################################################################
+
+echo "Show one coin flip result:  $toss"
+echo "Show two coins flip result: $toss2"
+echo "SHow three coins flip results: $toss3"
