@@ -5,10 +5,9 @@ then
 else
     echo "tails"
 fi
-percentage=$((($toss/10)*100))
-echo "Percentage is $percentage"
+#########################################################
 
-read -p "FLip the coins and give the ans: " toss2
+read -p "FLip 2 coins and give the ans: " toss2
 if [ $toss2 = 11 ]
 then
     echo "Head Head"
@@ -24,3 +23,28 @@ then
 else
     echo "not valid"
 fi
+#############################################################
+
+read -p "FLip 3 coins and give the ans: " toss3
+if [ $toss3 = 111 ]
+then
+	echo "Head Head Head"
+elif [ $toss3 = 110 ]
+then
+	echo "Head Head Tail"
+elif [ $toss3 = 100 ]
+then
+	echo "Head Tail Tail"
+elif [ $toss3 = 000 ]
+then
+	echo "Tail Tail Tail"
+elif [ $toss3 = 001 ]
+then
+	echo "Tail Tail Head"
+elif [ $toss3 = 011 ]
+then
+	echo "Tail Head Head"
+else
+    echo "not valid"
+fi
+###################################################################
